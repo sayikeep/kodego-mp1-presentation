@@ -1,0 +1,46 @@
+.carousel img {
+  height: 500px;
+  object-fit: cover;
+  z-index: -1;
+}
+.carousel .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.carousel-caption {
+  size: 10rem;
+  z-index: 2;
+}
+section#home h1 {
+  color: #023047;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', serif
+}
+#about img {
+  height: 400px;
+  display: block;
+  margin: auto;
+}
+#services {
+  background-color: #ced4da;
+}
+#services img {
+  height: 150px;
+  width: 100%;
+  object-fit: cover;
+}
+section#contact p {
+  font-size: large;
+  font-weight: bold;
+}
+#contact .card {
+  max-width: 500px;
+  margin: auto;
+}
+footer p {
+  text-align: center;
+  font-weight: bold;
+}
